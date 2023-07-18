@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600&family=Lato:wght@300;400;700;900&family=Open+Sans:wght@400;600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Work Sans', sans-serif;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* nav section styles start */
+
+.nav-container{
+    min-height: 50px;
+    max-width: 100%px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #9376e0;
+    color: white;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 40px;
+    font-size: 25px;
+    width: 50%;
+
+}
+.logo-container img{
+    width: 100px;
+    object-fit:cover ;
+    
+}
+.hive{
+    color: #e893cf;
+}
+
+.nav-items-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+   }
+.nav-items-container a{
+    text-decoration: none;
+    color: white;
+}
+.btn-primary{
+    color: black;
+    padding: 10px 20px;
+    background-color: #e893cf;
+    border-radius: 5px;
+    font-weight: 700;
+    border: none;
+    font-size: 18px;
+}
+
+/* nav section styles end here */
+
+/* banner section styles start here */
+
+/* .banner-container{
+    border: 2px solid red;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.banner-container{
+    display: flex;
+}
+
+.banner-text-section{
+    width: 50%;
+    border: 2px solid yellow;
+}
+
+.banner-img{
+    width: 50%;
+    border: 2px solid blue;
+} */
+
+.banner-section-container{
+    border: 2px solid salmon;
+    max-width: 1440px;
+    margin: 0px auto;
+    min-height: 400px;
+    display: flex;
+    background-color: rgb(230 233 235);
+    margin-top: 30px;
+}
+.banner-items{
+    border: 2px solid black;
+    width: 50%;
+}
+
+.banner-title{
+    background-image: linear-gradient(to bottom, #9376e0, #e893cf);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 50px;
+}
+
+.banner-img{
+    border: 2px solid yellow;
+    width: 50%;
+}
+
+.banner-description{
+    font-family: 'Caveat', cursive;
+    font-size: 35px;
+}
+
+.social-media{
+    font-size: 35px;
+}
+
+
+/* banner section styles end here */
+
